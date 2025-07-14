@@ -15,7 +15,7 @@ This project automates login and product data scraping from [SauceDemo](https://
 
 ## 📁 Folder Structure
 
-<pre> ## 📁 Folder Structure <code>```text
+<pre><code>
 /SauceDemoAutomation
 │
 ├── /src
@@ -28,7 +28,7 @@ This project automates login and product data scraping from [SauceDemo](https://
 │   └── config.properties
 │
 ├── .gitignore
-└── README.md ```</code> </pre>
+└── README.md</code> </pre>
 
 - **`loginClass`**: Initializes the WebDriver and handles the login process for saucedemo.com
 - **`uiAutomation`**: Contains logic to scrape product data
