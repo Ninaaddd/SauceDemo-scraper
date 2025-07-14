@@ -15,7 +15,20 @@ This project automates login and product data scraping from [SauceDemo](https://
 
 ## 📁 Folder Structure
 
-<pre> ## 📁 Folder Structure <code>```text /SauceDemoAutomation │ ├── /src │ ├── /loginClass │ ├── /uiAutomation │ ├── /UtilityClasses │ └── Main1.java │ ├── /Configuration │ └── config.properties │ ├── .gitignore └── README.md ```</code> </pre>
+<pre> ## 📁 Folder Structure <code>```text
+/SauceDemoAutomation
+│
+├── /src
+│   ├── /loginClass
+│   ├── /uiAutomation
+│   ├── /UtilityClasses
+│   └── Main1.java
+│
+├── /Configuration
+│   └── config.properties
+│
+├── .gitignore
+└── README.md ```</code> </pre>
 
 - **`loginClass`**: Initializes the WebDriver and handles the login process for saucedemo.com
 - **`uiAutomation`**: Contains logic to scrape product data
