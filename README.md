@@ -15,8 +15,7 @@ This project automates login and product data scraping from [SauceDemo](https://
 
 ## 📁 Folder Structure
 
-<pre><code>
-/SauceDemoAutomation
+<pre><code>/SauceDemoAutomation
 │
 ├── /src
 │   ├── /loginClass
