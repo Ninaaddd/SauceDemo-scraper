@@ -18,11 +18,12 @@ public class LoginClass extends BaseClass{
 	WebElement loginBtn;
 	
 	public LoginClass() {
-		window();
-		PageFactory.initElements(driver, this);
+		initializeDriver();
+		PageFactory.initElements(getDriver(), this);
 	}
 	
 	public void loginTest() throws InterruptedException{
+		WebDriver driver = getDriver();
 		ReadConfigFile config = new ReadConfigFile();
 		driver.get("https://www.saucedemo.com/");
 		System.out.println("Website: " + driver.getCurrentUrl());
@@ -34,8 +35,6 @@ public class LoginClass extends BaseClass{
 		Thread.sleep(3000);
 	}
 	
-	public WebDriver getDriver() {
-		return driver;
-	}
+	
 	
 }

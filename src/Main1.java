@@ -14,5 +14,8 @@ public class Main1 {
 		
 		Scraping scrap = new Scraping(driver);
 		scrap.getProductInfo();
+		
+		Thread.sleep(5000);
+		driver.quit();
 	}
 }

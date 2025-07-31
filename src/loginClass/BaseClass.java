@@ -8,10 +8,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 public class BaseClass {
-	public static WebDriver driver;
+	private WebDriver driver;
 	int commonWaitForAllElements = 60;
 	
-	public void window() {
+	public void initializeDriver() {
 		
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--force-device-scale-factor=0.8");
@@ -32,5 +32,8 @@ public class BaseClass {
 		
 		
 		
+	}
+	public WebDriver getDriver() {
+		return driver;
 	}
 }
